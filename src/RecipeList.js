@@ -1,4 +1,5 @@
-import React from "react"; import RecipeView from "./RecipeView"; 
+import React from "react"; 
+import RecipeView from "./RecipeView"; 
 import "./App.css"; 
 function RecipeList({recipes, deleteRecipe}) { 
   // TODO: Display the list of recipes using the structure of table that is provided. 
@@ -8,7 +9,7 @@ function RecipeList({recipes, deleteRecipe}) {
   return ( 
     <div className="recipe-list"> 
       <table> 
-        <thead className="tenPercent ingredients preparation last">
+        <thead>
           <tr> 
             <th>Name</th> 
             <th>Cuisine</th> 
